@@ -193,13 +193,6 @@ if(score >= 10000){
 	text("YOU WON!!",670,300);
 }
 
-if(score < -10){
-	fill("blue");
-    textSize(60); 
-	text("YOU LOST",670,300);
-}
-
-
 fill("red");
 textSize(20);
 text("Score : "+score, 200,100);
